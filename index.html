@@ -1,0 +1,44 @@
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <title>The Love Calculator</title>
+  <meta name="author" content="">
+  <meta name="description" content="">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <link href="css/style.css" rel="stylesheet">
+</head>
+
+<body class="body">
+  <div>
+    <h1 class="headerMain">Welcome to the Love Calculator</h1>
+
+    <p class="descMain">Enter two names (first and last) 
+      and the love calculator will tell you if there is potential 
+      chemistry between the two, or if the pair is doomed!</p>
+    <br>
+    <div class="names" id="inputSet">
+      <label for="inputOne">Enter the first person's name: </label>
+      <input name="inputOne" id="inputOne" class="input">
+      <br>
+      <label for="inputTwo" >Enter the second person's name: </label>
+      <input name="inputTwo" id="inputTwo" class="input">
+      <br>
+      <br>
+      <button onclick="runCalculator()" class="button">Run the Calculator</button>
+    </div>
+    <br>
+    <div id="result" class="result"></div>
+    <br>
+    <div class="buttonHidden" id="calcClear">
+      <button onclick="clearCalculator()" class="button">Clear Calculator</button>
+    </div>
+  </div>
+  <div class="pageBottom">
+    <p class="endText">Sosa Enterprises© 2021 — All Rights Reserved — Berkeley, CA</p>
+  </div>
+  <script src="js/calculator.js"></script>
+</body>
+
+</html>
