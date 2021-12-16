@@ -15,20 +15,21 @@ function clearCalculator() {
 function runCalculator() {
     const nameOne = String(document.getElementById("inputOne").value);
     const nameTwo = String(document.getElementById("inputTwo").value);
+    console.log("test1")
 
     if (nameOne.toLowerCase().includes("jacob") || nameTwo.toLowerCase().includes("jacob")) {
         
         let loveOdds = 17;
-        console.log("test")
+        console.log("test2")
 
     } else {
-        
+        console.log("test3")
         let nameOneAverage = nameAverage(nameOne);
         let nameTwoAverage = nameAverage(nameTwo);
     
         let loveOdds = calculateOdds(nameOneAverage, nameTwoAverage);
     }
-    
+    console.log("test4")
     let loveOutput = outputGenerator(loveOdds);
     
     const container = document.getElementById("result");
