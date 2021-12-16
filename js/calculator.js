@@ -19,6 +19,7 @@ function runCalculator() {
     if (nameOne.toLowerCase().includes("jacob") || nameTwo.toLowerCase().includes("jacob")) {
         
         let loveOdds = 17;
+        console.log("test")
 
     } else {
         
