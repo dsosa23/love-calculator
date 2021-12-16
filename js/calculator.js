@@ -16,6 +16,8 @@ function runCalculator() {
     const nameOne = String(document.getElementById("inputOne").value);
     const nameTwo = String(document.getElementById("inputTwo").value);
     console.log("test1")
+    
+    let loveOdds = 0;
 
     if (nameOne.toLowerCase().includes("jacob") || nameTwo.toLowerCase().includes("jacob")) {
         
